@@ -1,0 +1,123 @@
+body{
+	font-family: varela round;
+}
+.flex-container{
+	display: flex;
+}
+.vis:hover{
+  background-color: #000528;
+}
+.visn:hover{
+	background-color: #f1f441;
+}
+.las{
+	background-color: wheat;  /* fallback for old browsers */
+
+}
+.cont{
+	background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#contain {
+	/*background-image: url(bg2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	height: 700px;
+	background: #283048;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	}
+	.fa-facebook-f:hover{
+		transition: 0.9s;
+    transform: rotateY(380deg);
+	}
+	.fa-instagram:hover{
+		transition: 0.9s;
+    transform: rotatex(380deg);
+	}
+
+	.foot{
+		color: white;
+		padding-left: 20px
+	}
+.foot:hover{
+	color: wheat;
+	text-decoration: none;
+	cursor: pointer;
+}
+.jumbotron{
+	text-align: center;
+}
+#buttons{
+	display: flex;
+	margin-left: 250px;
+	margin-bottom: 20px;
+}
+.grid{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+#more{
+	border:2px solid grey;
+	border-radius: 18px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-left: 45%;
+	margin-bottom: 100px;
+	letter-spacing: 2px;
+	font-weight: 2em;
+}
+.button {
+	border-radius: 4px;
+	background-color: #000528;
+	border: none;
+	color: #cce0cf;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	margin-top: 20px;
+  }
+  
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+	}
+
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+}
